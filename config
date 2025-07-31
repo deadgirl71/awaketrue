@@ -1,0 +1,172 @@
+var multiConfig = {"THISROOM":"cchome@soi","locationColor":"White","locationBackground":"green","currentView":"","viewList":["The Outside","Kitchen","Bedroom","Bathroom","Living Room"],"defaultView":"The Outside"}
+
+var roomstuff = {
+"rooms":{
+
+"The Outside":{
+"rName":"The Outside",
+"backgroundImage":"https://soi-cchome.hyperchat.com/TheOutsideback.jpg",
+"chatleft":"",
+"underchat":"",
+"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/TheOutside.jpg></center>",
+"roombottom":"",
+"borderBGImage":"https://soi-cchome.hyperchat.com/TheOutsideside.jpg",
+"innerBGColor":"#1D2B14",
+"innerHRImage":"https://soi-cchome.hyperchat.com/TheOutsidesep.jpg",
+"color":"#D8E8B8",
+"link":"#D8E8B8",
+"hlink":"#CAB79A",
+"selection":"red",
+
+// Default/Matching Input Colors
+"inputBorderColor_Default":"#D8E8B8",
+"inputBGColor_Default":"#000000",
+"inputTextColor_Default":"#D8E8B8",
+
+// Custom Input Colors
+//"fromBGColor":"#000000",
+//"fromFontColor":"#D8E8B8",
+//"toBGColor":"#000000",
+//"toFontColor":"#D8E8B8",
+//"spiritListBGColor":"#000000",
+//"spiritListFontColor":"#D8E8B8",
+//"chatBGColor":"#000000",
+//"chatFontColor":"#D8E8B8"
+ },
+
+"Kitchen":{
+"rName":"Kitchen",
+"backgroundImage":"https://soi-cchome.hyperchat.com/TheKitchenback.jpg",
+"chatleft":"",
+"underchat":"",
+"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/TheKitchen.jpg></center>",
+"roombottom":"",
+"borderBGImage":"https://soi-cchome.hyperchat.com/TheKitchenside.jpg",
+"innerBGColor":"#3F2419",
+"innerHRImage":"https://soi-cchome.hyperchat.com/TheKitchensep.jpg",
+"color":"#F2DEA0",
+"link":"#F2DEA0",
+"hlink":"#E3DDCF",
+"selection":"red",
+
+// Default/Matching Input Colors
+"inputBorderColor_Default":"#F2DEA0",
+"inputBGColor_Default":"#000000",
+"inputTextColor_Default":"#F2DEA0",
+
+// Custom Input Colors
+//"fromBGColor":"#000000",
+//"fromFontColor":"#F2DEA0",
+//"toBGColor":"#000000",
+//"toFontColor":"#F2DEA0",
+//"spiritListBGColor":"#000000",
+//"spiritListFontColor":"#F2DEA0",
+//"chatBGColor":"#000000",
+//"chatFontColor":"#F2DEA0"
+ },
+
+"Bedroom":{
+"rName":"Bedroom",
+"backgroundImage":"https://soi-cchome.hyperchat.com/TheBedroomback.jpg",
+"chatleft":"",
+"underchat":"",
+"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/TheBedroom.jpg></center>",
+"roombottom":"",
+"borderBGImage":"https://soi-cchome.hyperchat.com/TheBedroomside.jpg",
+"innerBGColor":"#2A2D40",
+"innerHRImage":"https://soi-cchome.hyperchat.com/TheBedroomsep.jpg",
+"color":"#F2DEA0",
+"link":"#F2DEA0",
+"hlink":"#E3DDCF",
+"selection":"red",
+
+// Default/Matching Input Colors
+"inputBorderColor_Default":"#F2DEA0",
+"inputBGColor_Default":"#000000",
+"inputTextColor_Default":"#F2DEA0",
+
+// Custom Input Colors
+//"fromBGColor":"#000000",
+//"fromFontColor":"#F2DEA0",
+//"toBGColor":"#000000",
+//"toFontColor":"#F2DEA0",
+//"spiritListBGColor":"#000000",
+//"spiritListFontColor":"#F2DEA0",
+//"chatBGColor":"#000000",
+//"chatFontColor":"#F2DEA0"
+
+ },
+
+"Bathroom":{
+"rName":"Bathroom",
+"backgroundImage":"https://soi-cchome.hyperchat.com/TheBathroomback.jpg",
+"chatleft":"",
+"underchat":"",
+"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/TheBathroom.jpg></center>",
+"roombottom":"",
+"borderBGImage":"https://soi-cchome.hyperchat.com/TheBathroomside.jpg",
+"innerBGColor":"#3E2C22",
+"innerHRImage":"https://soi-cchome.hyperchat.com/TheBathroomsep.jpg",
+"color":"#F2DEA0",
+"link":"#F2DEA0",
+"hlink":"#E3DDCF",
+"selection":"red",
+
+// Default/Matching Input Colors
+"inputBorderColor_Default":"#F2DEA0",
+"inputBGColor_Default":"#000000",
+"inputTextColor_Default":"#F2DEA0",
+
+// Custom Input Colors
+//"fromBGColor":"#000000",
+//"fromFontColor":"#F2DEA0",
+//"toBGColor":"#000000",
+//"toFontColor":"#F2DEA0",
+//"spiritListBGColor":"#000000",
+//"spiritListFontColor":"#F2DEA0",
+//"chatBGColor":"#000000",
+//"chatFontColor":"#F2DEA0"
+
+ },
+
+"Living Room":{
+"rName":"Living Room",
+"backgroundImage":"https://soi-cchome.hyperchat.com/Thelivingroomback.jpg",
+"chatleft":"",
+"underchat":"",
+"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/Thelivingroom.jpg></center>",
+"roombottom":"",
+"borderBGImage":"https://soi-cchome.hyperchat.com/Thelivingroomside.jpg",
+"innerBGColor":"#371F03",
+"innerHRImage":"https://soi-cchome.hyperchat.com/Thelivingroomsep.jpg",
+"color":"#F2DEA0",
+"link":"#F2DEA0",
+"hlink":"#E3DDCF",
+"selection":"red",
+
+// Default/Matching Input Colors
+"inputBorderColor_Default":"#F2DEA0",
+"inputBGColor_Default":"#000000",
+"inputTextColor_Default":"#F2DEA0",
+
+// Custom Input Colors
+//"fromBGColor":"#000000",
+//"fromFontColor":"#F2DEA0",
+//"toBGColor":"#000000",
+//"toFontColor":"#F2DEA0",
+//"spiritListBGColor":"#000000",
+//"spiritListFontColor":"#F2DEA0",
+//"chatBGColor":"#000000",
+//"chatFontColor":"#F2DEA0"
+
+ },
+
+
+"Rooms":{"rDisable":"disabled","rName":"Rooms"},
+
+"Code3":{
+"rName":"vGraphic",
+"roomId":"vgraphic@soi"
+}
+
+}}
