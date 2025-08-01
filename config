@@ -9,8 +9,6 @@ var multiConfig = {
   "Whispering Woods",
   "Pool of Reflection",
   "Sleeping Grove"
-]
-
   ],
   "defaultView": "Awakening"
 }
@@ -173,14 +171,4 @@ var roomstuff = {
 //"chatBGColor":"#000000",
 //"chatFontColor":"#F2DEA0"
 
- },
-
-
-"Rooms":{"rDisable":"disabled","rName":"Rooms"},
-
-"Code3":{
-"rName":"vGraphic",
-"roomId":"vgraphic@soi"
-}
-
-}}
+ }
