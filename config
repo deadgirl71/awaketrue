@@ -171,4 +171,6 @@ var roomstuff = {
 //"chatBGColor":"#000000",
 //"chatFontColor":"#F2DEA0"
 
- }
+    }
+  }
+};
