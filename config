@@ -1,27 +1,39 @@
-var multiConfig = {"THISROOM":"cchome@soi","locationColor":"White","locationBackground":"green","currentView":"","viewList":["The Outside","Kitchen","Bedroom","Bathroom","Living Room"],"defaultView":"The Outside"}
-
+var multiConfig = {
+  "THISROOM": "cchome@soi",
+  "locationColor": "White",
+  "locationBackground": "green",
+  "currentView": "",
+  "viewList": [
+    "Awakening",
+    "The Hearth of Offerings",
+    "Whispering Woods",
+    "Pool of Reflection",
+    "Sleeping Grove"
+  ],
+  "defaultView": "Awakening"
+}
 var roomstuff = {
 "rooms":{
 
-"The Outside":{
-"rName":"The Outside",
-"backgroundImage":"https://soi-cchome.hyperchat.com/TheOutsideback.jpg",
-"chatleft":"",
-"underchat":"",
-"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/TheOutside.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-cchome.hyperchat.com/TheOutsideside.jpg",
-"innerBGColor":"#1D2B14",
-"innerHRImage":"https://soi-cchome.hyperchat.com/TheOutsidesep.jpg",
-"color":"#D8E8B8",
-"link":"#D8E8B8",
-"hlink":"#CAB79A",
-"selection":"red",
+"Awakening": {
+  "rName": "Awakening",
+  "backgroundImage": "https://soi-awaking.hyperchat.com/awakinging.jpg",
+  "chatleft": "<p class='scroll'>Before offering, before descent—there is this breath.</p>",
+  "underchat": "<div style='text-align:center;'><img src='https://soi-sanctuary.hyperchat.com/vine-awakening.svg' style='max-width:320px;'></div>",
+  "roomtop": "<center><img src='https://soi-awaking.hyperchat.com/awakingingtop.jpg'></center>",
+  "roombottom": "<div class='footer'>You stir gently, breath tethered to ritual.</div>",
+  "borderBGImage": "https://soi-sanctuary.hyperchat.com/awakening-border.jpg",
+  "innerBGColor": "#f9f6ef",
+  "innerHRImage": "https://soi-sanctuary.hyperchat.com/awakening-sep.svg",
+  "color": "#4f4b45",
+  "link": "#4f4b45",
+  "hlink": "#837b6c",
+  "selection": "violet",
 
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#D8E8B8",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#D8E8B8",
+  // Default/Matching Input Colors
+  "inputBorderColor_Default": "#dcd4b0",
+  "inputBGColor_Default": "#ffffff",
+  "inputTextColor_Default": "#4f4b45"
 
 // Custom Input Colors
 //"fromBGColor":"#000000",
@@ -34,25 +46,25 @@ var roomstuff = {
 //"chatFontColor":"#D8E8B8"
  },
 
-"Kitchen":{
-"rName":"Kitchen",
-"backgroundImage":"https://soi-cchome.hyperchat.com/TheKitchenback.jpg",
-"chatleft":"",
-"underchat":"",
-"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/TheKitchen.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-cchome.hyperchat.com/TheKitchenside.jpg",
-"innerBGColor":"#3F2419",
-"innerHRImage":"https://soi-cchome.hyperchat.com/TheKitchensep.jpg",
-"color":"#F2DEA0",
-"link":"#F2DEA0",
-"hlink":"#E3DDCF",
-"selection":"red",
+"The Hearth of Offerings": {
+  "rName": "The Hearth of Offerings",
+  "backgroundImage": "https://soi-awaking.hyperchat.com/hearthback.jpg",
+  "chatleft": "<p class='scroll'>Warmth spills from flame-tended intentions.</p>",
+  "underchat": "<div style='text-align:center;'><img src='https://soi-sanctuary.hyperchat.com/vine-hearth.svg' style='max-width:320px;'></div>",
+  "roomtop": "<center><img src='https://soi-awaking.hyperchat.com/hearthtop.jpg'></center>",
+  "roombottom": "<div class='footer'>Here your devotion is felt in flame and softness.</div>",
+  "borderBGImage": "https://soi-sanctuary.hyperchat.com/hearth-border.jpg",
+  "innerBGColor": "#fff9ea",
+  "innerHRImage": "https://soi-sanctuary.hyperchat.com/hearth-sep.svg",
+  "color": "#5c4630",
+  "link": "#5c4630",
+  "hlink": "#c88f60",
+  "selection": "orange",
 
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#F2DEA0",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#F2DEA0",
+  // Default/Matching Input Colors
+  "inputBorderColor_Default": "#e7cfa2",
+  "inputBGColor_Default": "#000000",
+  "inputTextColor_Default": "#e7cfa2"
 
 // Custom Input Colors
 //"fromBGColor":"#000000",
@@ -65,57 +77,25 @@ var roomstuff = {
 //"chatFontColor":"#F2DEA0"
  },
 
-"Bedroom":{
-"rName":"Bedroom",
-"backgroundImage":"https://soi-cchome.hyperchat.com/TheBedroomback.jpg",
-"chatleft":"",
-"underchat":"",
-"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/TheBedroom.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-cchome.hyperchat.com/TheBedroomside.jpg",
-"innerBGColor":"#2A2D40",
-"innerHRImage":"https://soi-cchome.hyperchat.com/TheBedroomsep.jpg",
-"color":"#F2DEA0",
-"link":"#F2DEA0",
-"hlink":"#E3DDCF",
-"selection":"red",
+"Whispering Woods": {
+  "rName": "Whispering Woods",
+  "backgroundImage": "https://soi-awaking.hyperchat.com/woodsback.jpg",
+  "chatleft": "<p class='scroll'>Step softly—these branches listen with devotion.</p>",
+  "underchat": "<div style='text-align:center;'><img src='https://soi-sanctuary.hyperchat.com/vine-woods.svg' style='max-width:320px;'></div>",
+  "roomtop": "<center><img src='https://soi-awaking.hyperchat.com/woodstop.jpg'></center>",
+  "roombottom": "<div class='footer'>The roots know your truth without asking.</div>",
+  "borderBGImage": "https://soi-sanctuary.hyperchat.com/woods-border.jpg",
+  "innerBGColor": "#f1f7f0",
+  "innerHRImage": "https://soi-sanctuary.hyperchat.com/woods-sep.svg",
+  "color": "#3d5033",
+  "link": "#3d5033",
+  "hlink": "#5f7052",
+  "selection": "moss",
 
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#F2DEA0",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#F2DEA0",
-
-// Custom Input Colors
-//"fromBGColor":"#000000",
-//"fromFontColor":"#F2DEA0",
-//"toBGColor":"#000000",
-//"toFontColor":"#F2DEA0",
-//"spiritListBGColor":"#000000",
-//"spiritListFontColor":"#F2DEA0",
-//"chatBGColor":"#000000",
-//"chatFontColor":"#F2DEA0"
-
- },
-
-"Bathroom":{
-"rName":"Bathroom",
-"backgroundImage":"https://soi-cchome.hyperchat.com/TheBathroomback.jpg",
-"chatleft":"",
-"underchat":"",
-"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/TheBathroom.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-cchome.hyperchat.com/TheBathroomside.jpg",
-"innerBGColor":"#3E2C22",
-"innerHRImage":"https://soi-cchome.hyperchat.com/TheBathroomsep.jpg",
-"color":"#F2DEA0",
-"link":"#F2DEA0",
-"hlink":"#E3DDCF",
-"selection":"red",
-
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#F2DEA0",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#F2DEA0",
+  // Default/Matching Input Colors
+  "inputBorderColor_Default": "#c4d9bd",
+  "inputBGColor_Default": "#000000",
+  "inputTextColor_Default": "#c4d9bd"
 
 // Custom Input Colors
 //"fromBGColor":"#000000",
@@ -129,25 +109,57 @@ var roomstuff = {
 
  },
 
-"Living Room":{
-"rName":"Living Room",
-"backgroundImage":"https://soi-cchome.hyperchat.com/Thelivingroomback.jpg",
-"chatleft":"",
-"underchat":"",
-"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/Thelivingroom.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-cchome.hyperchat.com/Thelivingroomside.jpg",
-"innerBGColor":"#371F03",
-"innerHRImage":"https://soi-cchome.hyperchat.com/Thelivingroomsep.jpg",
-"color":"#F2DEA0",
-"link":"#F2DEA0",
-"hlink":"#E3DDCF",
-"selection":"red",
+"Pool of Reflection": {
+  "rName": "Pool of Reflection",
+  "backgroundImage": "https://soi-awaking.hyperchat.com/reflectionsback.jpg",
+  "chatleft": "<p class='scroll'>What you see is always enough. The echo is your own.</p>",
+  "underchat": "<div style='text-align:center;'><img src='https://soi-sanctuary.hyperchat.com/vine-reflection.svg' style='max-width:320px;'></div>",
+  "roomtop": "<center><img src='https://soi-awaking.hyperchat.com/reflectionstop.jpg'></center>",
+  "roombottom": "<div class='footer'>You gaze into still waters—not to judge, but to remember.</div>",
+  "borderBGImage": "https://soi-sanctuary.hyperchat.com/reflection-border.jpg",
+  "innerBGColor": "#eaf6f9",
+  "innerHRImage": "https://soi-sanctuary.hyperchat.com/reflection-sep.svg",
+  "color": "#375d67",
+  "link": "#375d67",
+  "hlink": "#5a7f8c",
+  "selection": "blue",
 
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#F2DEA0",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#F2DEA0",
+  // Default/Matching Input Colors
+  "inputBorderColor_Default": "#c2dce2",
+  "inputBGColor_Default": "#000000",
+  "inputTextColor_Default": "#c2dce2"
+
+// Custom Input Colors
+//"fromBGColor":"#000000",
+//"fromFontColor":"#F2DEA0",
+//"toBGColor":"#000000",
+//"toFontColor":"#F2DEA0",
+//"spiritListBGColor":"#000000",
+//"spiritListFontColor":"#F2DEA0",
+//"chatBGColor":"#000000",
+//"chatFontColor":"#F2DEA0"
+
+ },
+
+"Sleeping Grove": {
+  "rName": "Sleeping Grove",
+  "backgroundImage": "https://soi-awaking.hyperchat.com/groveback.jpg",
+  "chatleft": "<p class='scroll'>This softness is sacred. You are held, even in silence.</p>",
+  "underchat": "<div style='text-align:center;'><img src='https://soi-sanctuary.hyperchat.com/vine-grove.svg' style='max-width:320px;'></div>",
+  "roomtop": "<center><img src='https://soi-awaking.hyperchat.com/grovetop.jpg'></center>",
+  "roombottom": "<div class='footer'>Petals close around your spirit. This is your sanctuary of rest.</div>",
+  "borderBGImage": "https://soi-sanctuary.hyperchat.com/grove-border.jpg",
+  "innerBGColor": "#f5f0fa",
+  "innerHRImage": "https://soi-sanctuary.hyperchat.com/grove-sep.svg",
+  "color": "#5a4b6b",
+  "link": "#5a4b6b",
+  "hlink": "#826c98",
+  "selection": "lavender",
+
+  // Default/Matching Input Colors
+  "inputBorderColor_Default": "#d1c6e0",
+  "inputBGColor_Default": "#000000",
+  "inputTextColor_Default": "#d1c6e0"
 
 // Custom Input Colors
 //"fromBGColor":"#000000",
