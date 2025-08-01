@@ -4,11 +4,13 @@ var multiConfig = {
   "locationBackground": "green",
   "currentView": "",
   "viewList": [
-    "Awakening",
-    "The Hearth of Offerings",
-    "Whispering Woods",
-    "Pool of Reflection",
-    "Sleeping Grove"
+  "Awakening",
+  "The Hearth of Offerings",
+  "Whispering Woods",
+  "Pool of Reflection",
+  "Sleeping Grove"
+]
+
   ],
   "defaultView": "Awakening"
 }
