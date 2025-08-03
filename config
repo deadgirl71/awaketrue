@@ -86,7 +86,7 @@ var roomstuff = {
   "roombottom": "<div class='footer'>The roots know your truth without asking.</div>",
   "borderBGImage": "https://soi-sanctuary.hyperchat.com/woods-border.jpg",
   "innerBGColor": "#f1f7f0",
-  "innerHRImage": "https://soi-sanctuary.hyperchat.com/woods-sep.svg",
+  "innerHRImage": "https://soi-awaking.hyperchat.com/forwoods.gif",
   "color": "#3d5033",
   "link": "#3d5033",
   "hlink": "#5f7052",
